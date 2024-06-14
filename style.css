@@ -428,6 +428,14 @@ h3 {
         letter-spacing: 0.05em;
     }
 
+    video {
+        min-height: 100%; 
+        min-width: 100%; 
+        height: auto !important;
+        width: auto !important; 
+        overflow: hidden;
+    }
+
     .flying-butterfly-one {
         width: 300px;
     }
