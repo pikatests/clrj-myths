@@ -437,6 +437,10 @@ h3 {
         display: none;
     }
 
+    .flying-butterfly-one, .flying-butterfly-two, .flying-butterfly-three {
+        display: none;
+    }
+
     .flying-butterfly-one {
         width: 300px;
     }
