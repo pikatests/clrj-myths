@@ -429,11 +429,7 @@ h3 {
     }
 
     video {
-        min-height: 100%; 
-        min-width: 100%; 
-        height: auto !important;
-        width: auto !important; 
-        overflow: hidden;
+        display: none;
     }
 
     .flying-butterfly-one {
