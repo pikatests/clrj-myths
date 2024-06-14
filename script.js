@@ -51,9 +51,9 @@ function adjustForMobile() {
   const header = document.getElementById('header-title')
 
   if (window.innerWidth <= 1100) {
-    header.src = '/assets/header_mobile-svg.svg'
+    header.src = './assets/header_mobile-svg.svg'
   } else {
-    header.src = '/assets/header_desktop.svg'
+    header.src = './assets/header_desktop.svg'
   }
 }
 
@@ -109,9 +109,9 @@ function resetToMyth() {
 const categories = ['MYTH', 'FACT', 'TESTIMONY']
 
 const categoryIcons = {
-  MYTH: '/assets/myth-icon.png',
-  FACT: '/assets/fact-icon.png',
-  TESTIMONY: '/assets/testimony-icon.png',
+  MYTH: './assets/myth-icon.png',
+  FACT: './assets/fact-icon.png',
+  TESTIMONY: './assets/testimony-icon.png',
 }
 
 const cardIndexMapping = {
