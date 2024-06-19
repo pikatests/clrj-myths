@@ -239,7 +239,6 @@ function changeClass() {
   const secondary = document.getElementById('menu-section')
   const background = document.getElementById('background')
 
-  smokeVideo.classList.toggle('inactive')
   element.classList.toggle('inactive')
   secondary.classList.toggle('active')
   background.classList.toggle('secondary-background')
