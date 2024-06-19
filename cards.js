@@ -11,7 +11,7 @@ const cards = [
         header: 'Abortion is legal in California.',
         content:
           'Both procedural abortion and medication abortion, which is an abortion using pills, are legal in the state of California. Getting medication abortion pills via telehealth is also legal in California. You can receive abortion care in California even if you are not a resident of the state.',
-        src: '/assets/cards/card-one-fact.png',
+        src: './assets/cards/card-one-fact.png',
       },
       {
         category: 'TESTIMONY',
