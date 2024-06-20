@@ -51,7 +51,7 @@ function adjustForMobile() {
   const header = document.getElementById('header-title')
 
   if (window.innerWidth <= 1100) {
-    header.src = './assets/header_mobile-svg.svg'
+    header.src = './assets/debunkmobile_title.png'
   } else {
     header.src = './assets/header_desktop.svg'
   }
