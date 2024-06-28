@@ -28,8 +28,35 @@ body {
 
 .smoke {
     position: fixed;
+    left: -1;
+    top: -1;
     opacity: 1;
     z-index: -1;
+}
+
+.language-selector {
+    position: absolute;
+    left: 5vmin;
+    top: 5vmin;
+}
+
+.lang-button {
+    background-color: transparent;
+    border: 0;
+    color: #652082;
+    font-size: 4vmin;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Alvaro', sans-serif;
+}
+
+dotlottie-player {
+    display: none;
+}
+
+a {
+    text-decoration: underline;
+    color: #DF865D;
 }
 
 .secondary-background {
@@ -62,21 +89,21 @@ body {
     position: absolute;
     left: -150;
     bottom: 0;
-    animation: fly-across 4s linear infinite;
+    animation: fly-across 6s linear infinite;
 }
 
 .flying-butterfly-two {
     position: absolute;
     right: -150;
     bottom: 50%;
-    animation: fly-across 3s reverse infinite;
+    animation: fly-across 5s reverse infinite;
 }
 
 .flying-butterfly-three {
     position: absolute;
     top: 0;
     left: -350;
-    animation: fly-across 5s ease-in-out infinite ;
+    animation: fly-across 6s ease-in-out infinite ;
 }
 
 @keyframes fly-across {
@@ -544,10 +571,9 @@ h3 {
       }
 
 }
-}
 
 @media (max-width: 768px) {
-    .main-button,
+    button,
     h2 {
         font-family: 'Roboto Condensed', sans-serif;
     }

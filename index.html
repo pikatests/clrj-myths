@@ -5,13 +5,16 @@
     loop
     id="smoke-video"
     class="smoke"
-    src="./assets/video/fog_loop.webm"
+    src="./assets/video/fog_slowed.webm"
   ></video>
   <link rel="stylesheet" href="./style.css" />
   <link
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet"
   />
+  <div class="language-selector">
+    <a href="/es.html"><button id="esp" class="lang-button">Español</button></a>
+  </div>
   <div id="main-section" class="main-section">
     <img
       id="header-title"
@@ -19,19 +22,7 @@
       alt=""
       class="main-title"
     />
-    <script
-      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
-      type="module"
-    ></script>
-    <dotlottie-player
-      src="https://lottie.host/be0a6f78-ca37-41a2-a21e-725776f95ac5/yjmnchXiru.json"
-      background="transparent"
-      speed="1"
-      id="main-butterfly"
-      class="main-butterfly"
-      loop
-      autoplay
-    ></dotlottie-player>
+    <img src="./assets/main_static_butterfly.png" class="main-butterfly" alt="">
     <img src="./assets/shapes-1.png" id="main-divider" alt="" class="main-shapes" />
     <button id="main-button" class="main-button">Click to enter</button>
     <script

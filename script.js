@@ -1,4 +1,4 @@
-import cards from './cards.js'
+import cards from './cards_en.js'
 
 const button = document.getElementById('main-button')
 const cardOneSelection = document.getElementById('card-one')
