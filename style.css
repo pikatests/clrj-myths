@@ -466,6 +466,10 @@ h3 {
         width: 90%;
     }
 
+    .lang-button {
+        font-size: 5vmin;
+    }
+
     .main-button {
         font-size: 9vmin;
         letter-spacing: 0.05em;

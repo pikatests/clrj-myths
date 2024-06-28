@@ -471,6 +471,11 @@ h3 {
         letter-spacing: 0.05em;
     }
 
+    .lang-button {
+        font-size: 5vmin;
+    }
+
+
     video {
         display: none;
     }
