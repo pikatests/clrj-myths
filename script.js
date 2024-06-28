@@ -58,12 +58,10 @@ function adjustForMobile() {
 
   if (window.innerWidth <= 1100) {
     header.src = './assets/debunkmobile_title.png'
-    butterflyVideo.style.display = 'none'
     staticButterfly.style.display = 'block'
   } else {
     staticButterfly.style.display = 'none'
     header.src = './assets/header_desktop.svg'
-    butterflyVideo.style.display = 'block'
   }
 }
 
