@@ -13,11 +13,6 @@ const smokeVideo = document.getElementById('smoke-video')
 let currentCard
 let currentIndex
 
-const mainSection = document.getElementById('main-section')
-const staticButterfly = document.createElement('img')
-staticButterfly.src = './assets/mainbutterfly_mobile.png'
-mainSection.insertBefore(staticButterfly, mainSection.childNodes[2])
-
 button.addEventListener('click', () => {
   changeClass()
 })
@@ -58,12 +53,8 @@ function adjustForMobile() {
 
   if (window.innerWidth <= 1100) {
     header.src = './assets/debunkmobile_title.png'
-    butterflyVideo.style.display = 'none'
-    staticButterfly.style.display = 'block'
   } else {
-    staticButterfly.style.display = 'none'
     header.src = './assets/header_desktop.svg'
-    butterflyVideo.style.display = 'block'
   }
 }
 
