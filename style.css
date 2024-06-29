@@ -583,12 +583,11 @@ h3 {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     button,
     h2 {
         font-family: 'Roboto Condensed', sans-serif;
     }
-    .info-content {
-        width: 90%;
+    .content-section {
     }
 }
