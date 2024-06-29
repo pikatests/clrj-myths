@@ -589,7 +589,6 @@ h3 {
         font-family: 'Roboto Condensed', sans-serif;
     }
     .info-content {
-        justify-content: center !important;
-        align-items: center !important;
+        width: 90%;
     }
 }
