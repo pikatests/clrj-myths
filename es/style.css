@@ -603,8 +603,12 @@ a {
     .testimonio {
         font-size: 1rem !important;
         margin-top: 0vmin !important;
+        transform: translateY(-10vmin) !important;
     }
     .hecho h3, .hecho p {
+        font-size: 1rem !important;
+    }
+    #category-snippet p {
         font-size: 1rem !important;
     }
 }
