@@ -456,6 +456,7 @@ h3 {
         max-height: 100vh;
         overflow: hidden;
         flex-shrink: 0;
+        overflow-x: hidden;
     }
 
     .main-title {
@@ -520,6 +521,7 @@ h3 {
         height: 40vh;
         bottom: -40vh;
         max-height: 40vh;
+        width: 100%;
     }
 
     .body-text p {
