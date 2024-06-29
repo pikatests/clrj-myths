@@ -414,7 +414,7 @@ a {
 #category-snippet {
 }
 
-.testimony{
+.testimonio{
     font-family: 'Andis', sans-serif;
     padding: 1vmin 20vmin !important;
     border-top-style: dotted;
@@ -434,7 +434,7 @@ a {
     padding: 5vmin 20vmin !important;
 }
 
-h3 {
+.hecho h3 {
     font-family: 'Andis', sans-serif;
     font-size: 3vmin;
     border-top-style: dotted;
@@ -580,4 +580,31 @@ h3 {
         height: 9vmin;
       }
 
+}
+@media (max-width: 400px) {
+    button,
+    h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .main-section {
+        margin-left: 1vmin !important;
+    }
+    .main-shapes {
+        width: 90% !important;
+    }
+    .body-text {
+        padding-left: 3vmin !important;
+        padding-right: 0vmin !important;
+        overflow-x: hidden;
+    }
+    .mito, .myth {
+        font-size: 1rem !important;
+    }
+    .testimonio {
+        font-size: 1rem !important;
+        margin-top: 0vmin !important;
+    }
+    .hecho h3, .hecho p {
+        font-size: 1rem !important;
+    }
 }

@@ -589,7 +589,7 @@ h3 {
         font-family: 'Roboto Condensed', sans-serif;
     }
     .main-section {
-        margin-left: 3vmin !important;
+        margin-left: 1vmin !important;
     }
     .main-shapes {
         width: 90% !important;
@@ -598,5 +598,15 @@ h3 {
         padding-left: 3vmin !important;
         padding-right: 0vmin !important;
         overflow-x: hidden;
+    }
+    .myth, .myth {
+        font-size: 1rem !important;
+    }
+    .testimony {
+        font-size: 1rem !important;
+        margin-top: 0vmin !important;
+    }
+    .fact h3, .fact p {
+        font-size: 1rem !important;
     }
 }
