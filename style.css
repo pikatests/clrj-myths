@@ -469,11 +469,13 @@ h3 {
 
     .lang-button {
         font-size: 5vmin;
+        font-weight: 300;
     }
 
     .main-button {
         font-size: 9vmin;
         letter-spacing: 0.05em;
+        font-weight: 300;
     }
 
     video {
