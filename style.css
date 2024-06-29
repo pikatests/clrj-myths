@@ -521,7 +521,8 @@ h3 {
         height: 40vh;
         bottom: -40vh;
         max-height: 40vh;
-        width: 100%;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     .body-text p {
