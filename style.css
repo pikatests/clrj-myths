@@ -588,6 +588,15 @@ h3 {
     h2 {
         font-family: 'Roboto Condensed', sans-serif;
     }
-    .content-section {
+    .main-section {
+        margin-left: 3vmin !important;
+    }
+    .main-shapes {
+        width: 90% !important;
+    }
+    .body-text {
+        padding-left: 3vmin !important;
+        padding-right: 0vmin !important;
+        overflow-x: hidden;
     }
 }
