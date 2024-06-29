@@ -599,19 +599,25 @@ h3 {
         padding-right: 0vmin !important;
         overflow-x: hidden;
     }
-    .myth, .myth {
+    .mito, .myth {
         font-size: 1rem !important;
     }
     .testimony {
         font-size: 1rem !important;
         margin-top: 0vmin !important;
         transform: translateY(-10vmin) !important;
+        padding: 1vmin 10vmin !important;
     }
-    .fact h3, .fact p {
+    .fact h3 {
+        font-size: 1rem !important;
+        padding: 1vmin 2vmin !important;
+    }
+    #category-snippet .fact {
+        transform: translateY(-10vmin) !important;
         font-size: 1rem !important;
     }
-
-    #category-snippet p {
+    #category-snippet {
         font-size: 1rem !important;
+        margin-top: 0vmin !important;
     }
 }

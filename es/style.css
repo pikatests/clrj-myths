@@ -532,7 +532,7 @@ a {
         overflow-y: scroll;
     }
 
-    .testimony {
+    .testimonio {
         margin-top: -5vmin !important;
         padding: 20px 50px !important;
         font-size: 2rem !important;
@@ -604,12 +604,16 @@ a {
         font-size: 1rem !important;
         margin-top: 0vmin !important;
         transform: translateY(-10vmin) !important;
+        padding: 1vmin 10vmin !important;
     }
     .hecho h3 {
         font-size: 1rem !important;
+        padding: 1vmin 2vmin !important;
     }
     #category-snippet .hecho {
         transform: translateY(-10vmin) !important;
+        font-size: 1rem !important;
+
     }
     #category-snippet {
         font-size: 1rem !important;
