@@ -376,13 +376,14 @@ a {
     background: #AD0091;
     color: #FFDF80;
     width: 30vmin;
-    padding: 1.5vmin 1vmin 0 1vmin;
+    padding: 1.5vmin 2vmin 0 2vmin;
     margin: -20vmin auto 19.5vmin auto;
     border-radius: 15px;
     text-align: center;
     font-size: 9vmin;
     z-index: 2;
     letter-spacing: 0.05em;
+    font-family: 'Alvaro', sans-serif;
 }
 
 .body-text {
@@ -510,6 +511,7 @@ h3 {
         transform: translateY(4vmin);
         width: 48vmin;
         top: 8vmin;
+        font-weight: 300;
     }
 
     .body-text {

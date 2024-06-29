@@ -49,7 +49,6 @@ cardFiveSelection.addEventListener('click', () => {
 
 function adjustForMobile() {
   const header = document.getElementById('header-title')
-  const butterflyVideo = document.getElementById('main-butterfly')
 
   if (window.innerWidth <= 1100) {
     header.src = './assets/debunkmobile_title.png'

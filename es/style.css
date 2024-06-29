@@ -376,7 +376,7 @@ a {
     background: #AD0091;
     color: #FFDF80;
     width: 30vmin;
-    padding: 1.5vmin 1vmin 0 1vmin;
+    padding: 1.5vmin 2vmin 0 2vmin;
     margin: -20vmin auto 19.5vmin auto;
     border-radius: 15px;
     text-align: center;
@@ -511,6 +511,8 @@ h3 {
         transform: translateY(4vmin);
         width: 48vmin;
         top: 8vmin;
+        font-family: 'Alvaro', sans-serif;
+        font-weight: 300;
     }
 
     .body-text {
@@ -575,11 +577,4 @@ h3 {
         height: 9vmin;
       }
 
-}
-
-@media (max-width: 768px) {
-    button,
-    h2 {
-        font-family: 'Roboto Condensed', sans-serif;
-    }
 }
