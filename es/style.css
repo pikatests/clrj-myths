@@ -605,10 +605,14 @@ a {
         margin-top: 0vmin !important;
         transform: translateY(-10vmin) !important;
     }
-    .hecho h3, .hecho p {
+    .hecho h3 {
         font-size: 1rem !important;
     }
-    #category-snippet p {
+    #category-snippet .hecho {
+        transform: translateY(-10vmin) !important;
+    }
+    #category-snippet {
         font-size: 1rem !important;
+        margin-top: 0vmin !important;
     }
 }
