@@ -588,4 +588,9 @@ h3 {
     h2 {
         font-family: 'Roboto Condensed', sans-serif;
     }
+    .body-text {
+        padding: 0 !important;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
 }
