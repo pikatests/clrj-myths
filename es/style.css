@@ -625,4 +625,7 @@ a {
         margin-top: 0vmin !important;
         margin-left: 1.5rem;
     }
+    .content-section {
+        transform: translateX(-1vmin) !important;
+    }
 }
