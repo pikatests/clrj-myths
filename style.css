@@ -50,7 +50,8 @@ body {
     font-family: 'Alvaro', sans-serif;
 }
 
-dotlottie-player {
+.flying-butterfly-three,
+.flying-butterfly-one {
     display: none;
 }
 
@@ -94,7 +95,6 @@ a {
 
 .flying-butterfly-two {
     position: absolute;
-    right: -150;
     bottom: 50%;
     animation: fly-across 5s reverse infinite;
 }
@@ -108,11 +108,11 @@ a {
 
 @keyframes fly-across {
     0% {
-        left: -150;
+        left: -20%;
         transform: translateY(0);
     }
     100% {
-        left: 100%;
+        left: 150%;
         transform: translateY(50%);
     }
 }
