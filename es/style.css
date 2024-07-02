@@ -609,6 +609,7 @@ a {
         margin-top: 0vmin !important;
         transform: translateY(-10vmin) !important;
         padding: 1vmin 10vmin !important;
+        margin-left: 0 !important;
     }
     .hecho h3 {
         font-size: 1rem !important;
@@ -620,7 +621,8 @@ a {
 
     }
     #category-snippet {
-        font-size: 1rem !important;
+        font-size: 0.8rem !important;
         margin-top: 0vmin !important;
+        margin-left: 1.5rem;
     }
 }
