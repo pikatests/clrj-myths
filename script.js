@@ -18,30 +18,35 @@ button.addEventListener('click', () => {
 })
 
 cardOneSelection.addEventListener('click', () => {
+  cardOneSelection.classList.add('clicked')
   currentCard = 'one'
   currentIndex = 0
   displayCard(currentCard)
 })
 
 cardTwoSelection.addEventListener('click', () => {
+  cardTwoSelection.classList.add('clicked')
   currentCard = 'two'
   currentIndex = 1
   displayCard(currentCard)
 })
 
 cardThreeSelection.addEventListener('click', () => {
+  cardThreeSelection.classList.add('clicked')
   currentCard = 'three'
   currentIndex = 2
   displayCard(currentCard)
 })
 
 cardFourSelection.addEventListener('click', () => {
+  cardFourSelection.classList.add('clicked')
   currentCard = 'four'
   currentIndex = 3
   displayCard(currentCard)
 })
 
 cardFiveSelection.addEventListener('click', () => {
+  cardFiveSelection.classList.add('clicked')
   currentCard = 'five'
   currentIndex = 4
   displayCard(currentCard)

@@ -248,6 +248,10 @@ a {
     transform: rotate(40deg) translateX(22vmin);
 }
 
+.clicked {
+    filter: grayscale(1) contrast(0.5);
+ } 
+
 /* CARD CONTENT */
 
 #close-icon {

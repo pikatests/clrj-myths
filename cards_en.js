@@ -39,7 +39,7 @@ const cards = [
       {
         category: 'TESTIMONY',
         content:
-          '“At first I could not believe a service like this existed online, but I decided to give it a shot. I was really impressed with the whole process, being able to speak to someone and the packaging of the medication, the whole presentation made me feel better at ease, as it looked professional and legitimate. I had previously tried to order from another foreign online place but in the end did not take the medication since I could not trust it.”',
+          '“At first I could not believe a service like this existed online, but I decided to give it a shot. I was really impressed with the whole process, being able to speak to someone and the packaging of the medication, the whole presentation made me feel better at ease, as it looked professional and legitimate. I had previously tried to order from another foreign online place but in the end did not take the medication since I could not trust it.” - <b>Virtual clinic patient. <a href="https://chatstudy.org">chatstudy.org</a></b>',
         src: './assets/cards/card-two-fact.png',
       },
     ],
@@ -60,7 +60,7 @@ const cards = [
       },
       {
         category: 'TESTIMONY',
-        content: `“I am very grateful for the accessibility to a provider. Possibly the most emotionally supportive resource I've had regardless of not being in person. It made me feel like I could voice out concerns to a professional if I needed to regardless of having an appointment/time slot. Accessibility can make a process that is already hard for some already so much easier.”`,
+        content: `“I am very grateful for the accessibility to a provider. Possibly the most emotionally supportive resource I've had regardless of not being in person. It made me feel like I could voice out concerns to a professional if I needed to regardless of having an appointment/time slot. Accessibility can make a process that is already hard for some already so much easier.” - <b>Virtual clinic patient. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-three-fact.png',
       },
     ],
@@ -83,7 +83,7 @@ const cards = [
       },
       {
         category: 'TESTIMONY',
-        content: `“I appreciate this experience in having the autonomy to be able to manage my own care with adequate support from a nurse practitioner. I felt empowered but I did not feel alone and I felt safe which was the most important to me.”`,
+        content: `“I appreciate this experience in having the autonomy to be able to manage my own care with adequate support from a nurse practitioner. I felt empowered but I did not feel alone and I felt safe which was the most important to me.” - <b>Virtual clinic patient. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-four-fact.png',
       },
     ],
@@ -107,7 +107,7 @@ const cards = [
       },
       {
         category: 'TESTIMONY',
-        content: `“Felt no judgment about my choice that was best for my family and my career at this point in my life. It was convenient! I just wish you guys [the virtual clinic] accepted medi-cal.”`,
+        content: `“Felt no judgment about my choice that was best for my family and my career at this point in my life. It was convenient! I just wish you guys [the virtual clinic] accepted medi-cal.” - <b>Virtual clinic patient. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-five-fact.png',
       },
     ],
