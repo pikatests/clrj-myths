@@ -96,7 +96,7 @@ a {
 .flying-butterfly-two {
     position: absolute;
     bottom: 50%;
-    animation: fly-across 5s reverse infinite;
+    animation: fly-across 7s reverse infinite;
 }
 
 .flying-butterfly-three {
