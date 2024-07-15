@@ -73,6 +73,8 @@ closeIcon.addEventListener('click', () => {
   previousMenu.classList.remove('inactive')
   contentSection.style.display = 'none'
 
+  changeNav('MITO')
+
   resetToMyth()
 })
 
@@ -82,7 +84,6 @@ function resetToMyth() {
   const categorySnippet = document.getElementById('category-snippet')
 
   // Reset navigation words
-  changeNav('MITO')
 
   const cardIndex = cardIndexMapping[currentCard]
 

@@ -73,6 +73,7 @@ closeIcon.addEventListener('click', () => {
   previousMenu.classList.remove('inactive')
   contentSection.style.display = 'none'
 
+  changeNav('MYTH')
   resetToMyth()
 })
 
@@ -82,8 +83,6 @@ function resetToMyth() {
   const categorySnippet = document.getElementById('category-snippet')
 
   const cardIndex = cardIndexMapping[currentCard]
-
-  changeNav('MYTH')
 
   if (cardIndex !== undefined) {
     const cardDetails = cards[cardIndex][currentCard].find(

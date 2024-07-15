@@ -111,7 +111,7 @@ const cartas = [
       },
       {
         category: 'TESTIMONIO',
-        content: `“No sentí ningún juicio sobre mi elección que era mejor para mi familia y mi carrera en este momento de mi vida. ¡Fue conveniente! Solo me gustaria que [la clínica virtual] aceptara medi-cal.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
+        content: `[Traducido al español] "No sentí ningún juicio sobre mi elección que era mejor para mi familia y mi carrera en este momento de mi vida. ¡Fue conveniente! Solo me gustaria que [la clínica virtual] aceptara medi-cal.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-five-fact.png',
       },
     ],
