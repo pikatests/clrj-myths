@@ -40,7 +40,7 @@ const cartas = [
       {
         category: 'TESTIMONIO',
         content:
-          '[Traducido al español] “Al principio no podía creer que existiera un servicio como este en línea, pero decidí darle una oportunidad. Me impresionó mucho todo el proceso, poder hablar con alguien y el empaquetado del medicamento, toda la presentación me hizo sentir mejor y a gusto, ya que parecía profesional y legítima. Anteriormente había intentado ordenar por línea de un lugar extranjero, pero al final no tomé el medicamento porque no podía confiar en él.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>',
+          '[Traducido al español] <br> “Al principio no podía creer que existiera un servicio como este en línea, pero decidí darle una oportunidad. Me impresionó mucho todo el proceso, poder hablar con alguien y el empaquetado del medicamento, toda la presentación me hizo sentir mejor y a gusto, ya que parecía profesional y legítima. Anteriormente había intentado ordenar por línea de un lugar extranjero, pero al final no tomé el medicamento porque no podía confiar en él.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>',
         src: './assets/cards/card-two-fact.png',
       },
     ],
@@ -61,7 +61,7 @@ const cartas = [
       },
       {
         category: 'TESTIMONIO',
-        content: `[Traducido al español] “Estoy muy agradecida por la accesibilidad a un proveedor. Posiblemente el recurso de mayor apoyo emocional que he tenido, independientemente de no estar en persona. Me hizo sentir que podía expresar mis preocupaciones a un profesional si lo necesitaba, independientemente de tener una cita / franja horaria. La accesibilidad puede hacer que un proceso que ya es difícil para algunos sea mucho más fácil.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
+        content: `[Traducido al español] <br> “Estoy muy agradecida por la accesibilidad a un proveedor. Posiblemente el recurso de mayor apoyo emocional que he tenido, independientemente de no estar en persona. Me hizo sentir que podía expresar mis preocupaciones a un profesional si lo necesitaba, independientemente de tener una cita / franja horaria. La accesibilidad puede hacer que un proceso que ya es difícil para algunos sea mucho más fácil.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-three-fact.png',
       },
     ],
@@ -87,7 +87,7 @@ const cartas = [
       },
       {
         category: 'TESTIMONIO',
-        content: `[Traducido al español] “Agradezco esta experiencia de tener la autonomía para poder administrar mi propia atención con el apoyo adecuado de una enfermera practicante. Me sentí empoderada, pero no me sentía sola y me sentía segura, lo cual era lo más importante para mí.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
+        content: `[Traducido al español] <br> “Agradezco esta experiencia de tener la autonomía para poder administrar mi propia atención con el apoyo adecuado de una enfermera practicante. Me sentí empoderada, pero no me sentía sola y me sentía segura, lo cual era lo más importante para mí.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-four-fact.png',
       },
     ],
@@ -111,7 +111,7 @@ const cartas = [
       },
       {
         category: 'TESTIMONIO',
-        content: `[Traducido al español] "No sentí ningún juicio sobre mi elección que era mejor para mi familia y mi carrera en este momento de mi vida. ¡Fue conveniente! Solo me gustaria que [la clínica virtual] aceptara medi-cal.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
+        content: `[Traducido al español] <br> "No sentí ningún juicio sobre mi elección que era mejor para mi familia y mi carrera en este momento de mi vida. ¡Fue conveniente! Solo me gustaria que [la clínica virtual] aceptara medi-cal.” - <b>Paciente de clínica virtual. <a href="https://chatstudy.org">chatstudy.org</a></b>`,
         src: './assets/cards/card-five-fact.png',
       },
     ],
