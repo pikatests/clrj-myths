@@ -81,6 +81,9 @@ function resetToMyth() {
   let updateCard = document.getElementById('card-image-front')
   const categorySnippet = document.getElementById('category-snippet')
 
+  // Reset navigation words
+  changeNav('MITO')
+
   const cardIndex = cardIndexMapping[currentCard]
 
   if (cardIndex !== undefined) {
@@ -128,7 +131,7 @@ const cardIndexMapping = {
 }
 
 arrowLeft.addEventListener('click', () => {
-  let currentCategory = document.getElementById('category-text').innerHTML // MYTH, FACT, TESTIMONY
+  let currentCategory = document.getElementById('category-text').innerHTML // MITO, HECHO, TESTIMONIO
   let updateCategory = document.getElementById('category-text')
   let updateCard = document.getElementById('card-image-front')
   const categorySnippet = document.getElementById('category-snippet')
@@ -171,7 +174,7 @@ arrowLeft.addEventListener('click', () => {
         existingH2.remove()
       }
 
-      // Add <h2> element if the category is FACT
+      // Add <h2> element if the category is HECHO
       if (currentCategory === 'HECHO') {
         const h3Element = document.createElement('h3')
         h3Element.innerText = cardDetails.header
@@ -184,7 +187,7 @@ arrowLeft.addEventListener('click', () => {
 })
 
 arrowRight.addEventListener('click', () => {
-  let currentCategory = document.getElementById('category-text').innerHTML // MYTH, FACT, TESTIMONY
+  let currentCategory = document.getElementById('category-text').innerHTML // MITO, HECHO, TESTIMONIO
   let updateCategory = document.getElementById('category-text')
   let updateCard = document.getElementById('card-image-front')
   const categorySnippet = document.getElementById('category-snippet')
@@ -227,7 +230,7 @@ arrowRight.addEventListener('click', () => {
         existingH2.remove()
       }
 
-      // Add <h2> element if the category is FACT
+      // Add <h2> element if the category is HECHO
       if (currentCategory === 'HECHO') {
         const h3Element = document.createElement('h3')
         h3Element.innerText = cardDetails.header

@@ -83,6 +83,8 @@ function resetToMyth() {
 
   const cardIndex = cardIndexMapping[currentCard]
 
+  changeNav('MYTH')
+
   if (cardIndex !== undefined) {
     const cardDetails = cards[cardIndex][currentCard].find(
       (card) => card.category === 'MYTH'
