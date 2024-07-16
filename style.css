@@ -334,6 +334,10 @@ a {
     font-weight: 700; 
 }
 
+#left-arrow, #right-arrow {
+    cursor: pointer;
+}
+
 .arrow-left, .arrow-right {
     display: flex;
     flex-direction: column;
